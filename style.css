@@ -1,0 +1,62 @@
+body{
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'navbar navbar navbar navbar'
+                         'section section section section'
+                         'footer footer footer footer';
+    grid-template-rows: 47vh 45vh 47vh 47vh;
+    grid-template-columns: 35vw 15vw 30vw 20vw;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: navbar;
+}
+
+section {
+    grid-area: section;
+    background-color: #E3E3E3;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 30px;
+    text-align: left;
+}
+
+
+.notified p {
+    color: rgb(119, 118, 118);
+    width: 400px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 2px;
+    font-family: 
+}
+
+
+.botao button {
+    background: #2CBF60;
+    color: white;
+    border: 0;
+    border-radius: 0.6em;  
+    width: 100px;
+    padding: 14px;
+
+}
+
+.botao input {
+    border-radius: 0.6em;
+    line-height: 32px;
+}
+.
+footer {
+    grid-area: footer;
+}
